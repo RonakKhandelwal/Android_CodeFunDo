@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="com.example.ronak.Login"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal">
+        <TextView   android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent" android:text="Company Name" />
+        <EditText android:id="@+id/cName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent" android:text="Project Name" />
+        <EditText android:id="@+id/pName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent" android:text="Specialization Required" />
+        <EditText android:id="@+id/special" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent" android:text="Contact Email" />
+        <EditText android:id="@+id/cEmail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent" android:text="Contact Number" />
+        <EditText android:id="@+id/cNum" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent" android:text="Year Of Establishment" />
+        <EditText android:id="@+id/yoe" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" />
+    </LinearLayout>
+
+    <Button android:id="@+id/submit" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Submit" android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
+
+
+
+

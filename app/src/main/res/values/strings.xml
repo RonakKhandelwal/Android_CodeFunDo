@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CodeFunDo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_list_shit">ListShit</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_dev_login">DevLogin</string>
+    <string name="title_activity_big_disc">BigDisc</string>
+</resources>
